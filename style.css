@@ -8,14 +8,14 @@ body {
     color: deeppink;
     background-color: lavender;
     font-family: Broadway;
-    font-size: larger;
-    backface-visibility: revert;
+    font-size: small;
+    backface-visibility: initial;
     text-decoration: underline;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
-    max-width: 125em;
-    max-height: 30em;
+    max-width: 525em;
+    max-height: 130em;
     border-image-width: revert;
     border-style: groove;
 }
