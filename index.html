@@ -1,9 +1,11 @@
-<html lang="et">
+<html lang="et" xmlns:https="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">    <!-- Tähestik, mida kasutame  -->
     <link rel="stylesheet" type="text/css" href="style.css"/> <!-- Ühendus CSS-i ja meie lehe vahel -->
-    <title>Minu veebileht</title> <!-- Veebilehe pealkiri, mida näidatakse brauseri tab-is -->
+    <title>Võililled</title> <!-- Veebilehe pealkiri, mida näidatakse brauseri tab-is -->
+
+
 </head>
 
 <body>
@@ -12,12 +14,14 @@
 
 <div class="container" style="padding: 1em">
     <div id="textBox">
-        <h1>Nimetus</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur eget lectus mi. Donec lorem magna,
-            elementum ac dui in, posuere pharetra odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur eget lectus mi. Donec lorem magna, elementum ac dui in, posuere pharetra odio.</p>
+        <h1>Võililled</h1>
+        <p>õilille iseloomustavad juurmise kodarikuna kasvavad sulgjalt lõhestunud lehed, pikk seest õõnes õisikuvarb, jäme sügavale mulda tungiv juur ja
+            loomulikult kuldkollased suured korvõisikud. Võilille õisikud koosnevad ainult keelõitest. Kuigi kõik keelõied tunduvad esmapilgul sarnased, on neil väikesi erinevusi.
+            Nimelt on servmistel õitel alumisel küljel lillakas vööt. Ka ei ole kõikidel õitel õietolmu, taimele piisab kui seda on osades.
+            Selle tõestuseks on tõsiasi, et võilillel areneb palju idanemisvõimelisi seemneid.
+            Ühel võilillel võib aastas valmida isegi kuni kümme tuhat seemet.</p>
     </div>
-    <img id="photo" src="images/img.png">
+    <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMeTfl0jiB3DkuvwCBPNFJNq5hpWLn2EWXAqxSGT8VsXZhICL6_kdJWYOyTXcIqtrFUPw&usqp=CAU=">
 </div>
 
 <!-- Lõbusad faktid -->
@@ -25,17 +29,24 @@
 <div class="container">
     <div class="card">
         <!-- Tee see osa ise! -->
+        <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Mu6Qn0lyAEIi4JeuHSx03MM79Sph8t6mMB7g2HU3psAu4VDw_Cg1dW2AZ_o8a0bqXGk&usqp=CAU"/>
+        <h1>Kas teadsid, et </h1>
+        <p>võililled kasvavad mitte üksnes mullas</p>
+    </div>
+    <div class="card">
+          <!-- Tee see osa ise! -->
         <img class="icon" src="images/question.png"/>
         <h1>Kas teadsid, et </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio vel lorem congue
-            facilisis.</p>
+        <p>võililled kasvavad mitte üksnes linnas</p>
     </div>
     <div class="card">
         <!-- Tee see osa ise! -->
+        <img class="icon" src="images/question.png"/>
+        <h1>Kas teadsid, et </h1>
+        <p>võililled üksnes ei kasva </p>
     </div>
-    <div class="card">
-        <!-- Tee see osa ise! -->
-    </div>
+    <p> Siia
+    </p>
 </div>
 
 <!-- Video -->
@@ -55,6 +66,18 @@
 <div>
     <h1>Lisainfo</h1>
     <div class="container">
+        <p onclick="changeColor()">Yeah, text can act as a "button" as well!</p>
+
+        <p id="regulartext">I wish I could become RED one day...</p>
+
+        <script>
+// You can use JavaScript to change the CSS style of an element!
+
+            function changeColor() {
+            document.getElementById("regulartext").style.color = "blue";
+            }
+
+            </script>
         <!-- Tee see osa ise! -->
     </div>
 </div>

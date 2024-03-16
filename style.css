@@ -5,15 +5,23 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    color: deeppink;
+    background-color: lavender;
+    font-family: Broadway;
+    font-size: larger;
+    backface-visibility: revert;
+    text-decoration: underline;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
-    max-width: 25em;
+    max-width: 125em;
     max-height: 30em;
+    border-image-width: revert;
+    border-style: groove;
 }
 /* .-ga viitame elemenditele, millel on selline class */
 .container {
-    display: flex;
+    display: ruby;
     padding: 1em;
     align-items: center;
     gap: 3em;
