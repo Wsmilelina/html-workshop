@@ -1,4 +1,5 @@
 # Veebilehe töötuba
+https://wsmilelina.github.io/html-workshop/
 
 Kuidas mall välja näeb? [https://taltech-coding.github.io/html-workshop/](https://taltech-coding.github.io/html-workshop/)
 
